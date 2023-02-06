@@ -19,11 +19,22 @@
   justify-content: center;
   align-items: center;
   line-height: 100px;
+  transition: transform .5s;
 }
 
 .circle .fa {
   font-size: 5rem;
 }
+
+.circle .fa:hover {
+  -ms-transform: scale(1.3);
+    /* IE 9 */
+  -webkit-transform: scale(1.3);
+    /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
+
 
 .circle .btn {
   border-radius: 50%;
@@ -40,6 +51,11 @@
 
 .circle .btn:hover {
   background: rgb(108, 99, 255);
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 .deg-0 {
@@ -50,25 +66,22 @@
   color: rgb(108, 99, 255);
 }
 
-.deg-74 {
-  transform: rotate(74deg) translate(300px) rotate(-74deg);
-}
-
-.deg-144 {
-  transform: rotate(144deg) translate(300px) rotate(-144deg);
+.deg-180 {
+  transform: rotate(180deg) translate(300px) rotate(-180deg);
 }
 
 .deg-216 {
-  transform: rotate(216deg) translate(300px) rotate(-216deg);
+  transform: rotate(226deg) translate(300px) rotate(-226deg);
 }
 
-.deg-288 {
-  transform: rotate(280deg) translate(300px) rotate(-280deg);
+.deg-271 {
+  transform: rotate(275deg) translate(300px) rotate(-275deg);
 }
 
-.deg-360 {
-  transform: rotate(360deg) translate(180px) rotate(-360deg);
+.deg-316 {
+  transform: rotate(325deg) translate(300px) rotate(-325deg);
 }
+
 
 
 @media only screen and (max-width: 600px) {
@@ -92,36 +105,32 @@
     transform: translate(120px)
   }
 
-  .deg-74 {
-    transform: rotate(74deg) translate(100px) rotate(-74deg);
-  }
-
-  .deg-144 {
-    transform: rotate(144deg) translate(120px) rotate(-144deg);
+  .deg-180 {
+    transform: rotate(180deg) translate(120px) rotate(-180deg);
   }
 
   .deg-216 {
-    transform: rotate(216deg) translate(126px) rotate(-216deg);
+    transform: rotate(226deg) translate(120px) rotate(-226deg);
   }
 
-  .deg-288 {
-    transform: rotate(280deg) translate(120px) rotate(-280deg);
+  .deg-271 {
+    transform: rotate(275deg) translate(120px) rotate(-275deg);
   }
 
-  .deg-360 {
-    transform: rotate(360deg) translate(120px) rotate(-360deg);
+  .deg-316 {
+    transform: rotate(325deg) translate(120px) rotate(-325deg);
   }
 
 } 
 
-@media screen and (max-width: 1024px) and (min-width: 601px) {
+@media screen and (max-width: 1028px) and (min-width: 601px) {
 
   .img-responsive {
       width: 70%;
   }
 
   .circle {
-    top: 50%;
+    top: 53%;
     left: 40%;
       
   }
@@ -130,24 +139,21 @@
     transform: translate(250px)
   }
 
-  .deg-74 {
-    transform: rotate(74deg) translate(250px) rotate(-74deg);
-  }
-
-  .deg-144 {
-    transform: rotate(144deg) translate(250px) rotate(-144deg);
+  .deg-180 {
+    transform: rotate(180deg) translate(250px) rotate(-180deg);
   }
 
   .deg-216 {
-    transform: rotate(216deg) translate(250px) rotate(-216deg);
+    transform: rotate(226deg) translate(250px) rotate(-226deg);
   }
 
-  .deg-288 {
-    transform: rotate(280deg) translate(250px) rotate(-280deg);
+  .deg-271 {
+    transform: rotate(275deg) translate(250px) rotate(-275deg);
   }
 
-  .deg-360 {
-    transform: rotate(360deg) translate(300px) rotate(-360deg);
+  .deg-316 {
+    transform: rotate(325deg) translate(250px) rotate(-325deg);
   }
 
 }
+
