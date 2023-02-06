@@ -1,0 +1,153 @@
+.img-responsive {
+  position: relative;
+  width: 65%;
+  border-radius: 51%;
+  position: relative;
+  /* margin: 100px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.circle {
+  display: flex;
+  position: absolute;
+  top: 54%;
+  left: 48%;
+  width: 90px;
+  height: 90px;
+  border-radius: 51%;
+  justify-content: center;
+  align-items: center;
+  line-height: 100px;
+}
+
+.circle .fa {
+  font-size: 5rem;
+}
+
+.circle .btn {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.circle .btn:hover {
+  background: rgb(108, 99, 255);
+}
+
+.deg-0 {
+  transform: translate(300px)
+}
+
+.circle .fa:hover {
+  color: rgb(108, 99, 255);
+}
+
+.deg-74 {
+  transform: rotate(74deg) translate(300px) rotate(-74deg);
+}
+
+.deg-144 {
+  transform: rotate(144deg) translate(300px) rotate(-144deg);
+}
+
+.deg-216 {
+  transform: rotate(216deg) translate(300px) rotate(-216deg);
+}
+
+.deg-288 {
+  transform: rotate(280deg) translate(300px) rotate(-280deg);
+}
+
+.deg-360 {
+  transform: rotate(360deg) translate(180px) rotate(-360deg);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .img-responsive {
+      width: 64%;
+    }
+
+  .circle .fa {
+    font-size: 3.5rem;
+  }
+
+  .circle .btn {
+    width: 50px;
+    height: 50px;
+    font-size: 0.8rem;
+    padding: 3px;
+  }
+  
+  .deg-0 {
+    transform: translate(120px)
+  }
+
+  .deg-74 {
+    transform: rotate(74deg) translate(100px) rotate(-74deg);
+  }
+
+  .deg-144 {
+    transform: rotate(144deg) translate(120px) rotate(-144deg);
+  }
+
+  .deg-216 {
+    transform: rotate(216deg) translate(126px) rotate(-216deg);
+  }
+
+  .deg-288 {
+    transform: rotate(280deg) translate(120px) rotate(-280deg);
+  }
+
+  .deg-360 {
+    transform: rotate(360deg) translate(120px) rotate(-360deg);
+  }
+
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+
+  .img-responsive {
+      width: 70%;
+  }
+
+  .circle {
+    top: 50%;
+    left: 40%;
+      
+  }
+
+  .deg-0 {
+    transform: translate(250px)
+  }
+
+  .deg-74 {
+    transform: rotate(74deg) translate(250px) rotate(-74deg);
+  }
+
+  .deg-144 {
+    transform: rotate(144deg) translate(250px) rotate(-144deg);
+  }
+
+  .deg-216 {
+    transform: rotate(216deg) translate(250px) rotate(-216deg);
+  }
+
+  .deg-288 {
+    transform: rotate(280deg) translate(250px) rotate(-280deg);
+  }
+
+  .deg-360 {
+    transform: rotate(360deg) translate(300px) rotate(-360deg);
+  }
+
+}
