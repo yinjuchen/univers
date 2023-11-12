@@ -1,0 +1,22 @@
+{
+  "name": "univers",
+  "version": "1.0.0",
+  "description": "myhomepage",
+  "main": "main.70a66962.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icloudphil/univers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icloudphil/univers/issues"
+  },
+  "homepage": "https://github.com/icloudphil/univers#readme",
+  "dependencies": {
+    "cypress": "^13.5.0"
+  }
+}
